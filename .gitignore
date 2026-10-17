@@ -1,0 +1,111 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage*
+htmlcov/
+*.egg-info/
+
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+secrets/
+*.pem
+*.key
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+coverage/
+
+# Generated knowledge base
+knowledgeBase/wiki/
+knowledgeBase/raw/
+
+# Generated benchmark output
+agents/benchmark_results/
+
+# Third-party checkout
+agent-skills-main/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Model files
+*.gguf
+*.safetensors
+*.pth
+*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Extracted research-paper images (generated data)
+knowledgeBase/raw/images/extracted/
+
+# Generated wiki and retrieval data
+knowledgeBase/wiki/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Generated benchmark results
+agents/benchmark_results/
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+coverage/
+
+# Secrets and local databases
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
